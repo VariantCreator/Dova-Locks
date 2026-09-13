@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.2
+
+- Join up to three touching Wards you own. They share access and a name, with a clear message when the group is full.
+- Choose your own Ward color, opacity and brightness. Your screen, your eyeballs.
+- Clearer map lock icons and names, smoother bubble joins, and a dark grey Ward display that matches the lock menus.
+- Removed Ward locks stay removed. No more walking back and forth playing PIN ping-pong. Each Ward keeps its own PIN.
+- Separate server admin controls, clearer overrides and a tidier activity list.
+- Members can private-lock chests they personally placed.
+- Ownership transfer folds away into a dropdown and keeps existing PINs. Other players' private locks stay separate.
+
 ## 1.1.1
 
 - Name your Ward and find it on the map. Show nearby Wards within 150 m.
