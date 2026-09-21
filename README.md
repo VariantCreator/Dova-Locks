@@ -2,7 +2,7 @@
 
 Your base. Your PIN. Your questionable choice of roommates.
 
-**1.1.2** adds PIN locks and Ward protection to ICARUS. Share access with friends, keep storage private, and let the neighbors bring their own snacks.
+**1.1.3** adds PIN locks and Ward protection to ICARUS. Share access with friends, keep storage private, and let the neighbors bring their own snacks.
 
 [Download](https://github.com/VariantCreator/Dova-Locks/releases/latest) · [Nexus](https://www.nexusmods.com/icarus/mods/325) · [What's new](CHANGELOG.md)
 
