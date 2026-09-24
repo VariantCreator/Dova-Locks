@@ -1,4 +1,4 @@
-# Dova Locks 1.1.2 guide
+# Dova Locks 1.1.4 guide
 
 [Quick start](README.md)
 

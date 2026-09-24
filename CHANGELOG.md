@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.1.4
+
+- Updated for the September 24 ICARUS patch.
+- Refreshed placement, device controls and lock prompts for the new game files.
+- Added Ward damage protection for the new glass display cabinet.
+
+## 1.1.3
+
+- Updated for Week 250.
+- Added the Electric Seed Extractor to Ward damage protection.
+
 ## 1.1.2
 
 - Join up to three touching Wards you own. They share access and a name, with a clear message when the group is full.
