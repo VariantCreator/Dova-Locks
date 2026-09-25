@@ -1,4 +1,9 @@
 # Changelog
+## 1.1.5
+- Added IMM compatibility
+*Note*
+- Mods altering splines, or deployable placement may not be compatible
+
 
 ## 1.1.4
 
