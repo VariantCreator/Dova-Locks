@@ -2,10 +2,10 @@
 
 Your base. Your PIN. Your questionable choice of roommates.
 
-**Dova Locks 1.1.4** brings PIN locks and Ward protection to ICARUS. Share access with friends, keep storage private, and let the neighbors bring their own snacks.
+**Dova Locks 1.1.5** brings Dova-locks to IMM! You can now merge with other mods! 
 
-Updated for the September 24 ICARUS patch.
-
+**Updated**
+- IMM compatibility 
 [Download](https://github.com/VariantCreator/Dova-Locks/releases/latest) · [Nexus](https://www.nexusmods.com/icarus/mods/325) · [What's new](CHANGELOG.md)
 
 ## Install
