@@ -1,10 +1,10 @@
-# Dova Locks 1.1.5 guide
+# Dova Locks 1.1.6 guide
 
 [Quick start](README.md)
 
 ## Get started
 
-Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need the same file.** Back up your prospect and both A/B lock saves before updating.
+Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need Dova Locks 1.1.6 and a compatible mod list.** Back up your prospect and both A/B lock saves before updating.
 
 For a regular lock, look at a supported door, window, container or bench. Hold **Shift**, then hold your **Interact key**. That's F by default, or your custom key. Set four digits and use **Link connected base** to protect the connected structure.
 
@@ -54,7 +54,17 @@ Stop the server before editing. For a remote server, download both saves, edit t
 
 Missing or mismatched client versions are rejected. ICARUS may still show error **028**; detailed DL001/DL002 reasons are in the server log.
 
-Other mods can conflict if they change the same assets. The Organizer handles PAKs; it does not merge them. Game updates may need a mod update.
+## Mod managers and Pickup and Move
+
+Jimk72's IMM accepts the EXMODZ or can extract the standalone PAK. The Variant Mod Organizer can merge PAKs too. Replace the old imported Dova entry with 1.1.6, refresh game data after an ICARUS update, and rebuild your list. Keep one active copy of each mod; do not leave separate copies beside a merged PAK containing them.
+
+With [Pickup and Move 1.0 by BuggyGames](https://www.nexusmods.com/icarus/mods/338), put Pickup and Move **before Dova Locks** in the merge order. This keeps the permission checks. Its T move follows normal pickup rights, and its storage-opening actions follow normal access rights. Private storage keeps its own access list.
+
+For separate PAK installs, keep both original mods and add `Dova-Locks-PickupMove_1_P.pak` from the compatibility ZIP. Keep that filename unchanged. Remove it if you uninstall Pickup and Move. Do not add this separate compatibility PAK over an IMM or Organizer merge.
+
+Dova still works on its own. The original Pickup and Move mod is required for its features and is not bundled here. Use the same setup on the server and clients; standalone and merged copies can use the same Dova version.
+
+Other mods can conflict if they replace the same game assets. Merging data does not combine conflicting Blueprint behavior. Game updates may need a mod update.
 
 [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues) with your version, what happened and any other mods involved. Logs and screenshots help. A screenshot of your PIN helps the wrong people, so leave that out.
 

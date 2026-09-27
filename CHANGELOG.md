@@ -1,4 +1,11 @@
 # Changelog
+
+## 1.1.6
+
+- Pickup and Move now follows Dova's pickup permissions, including private storage.
+- Its storage-opening actions also respect access. T is not a spare key.
+- Added a compatibility download for separate PAK installs. For merges, put Dova after Pickup and Move.
+
 ## 1.1.5
 - Added IMM compatibility
 *Note*
