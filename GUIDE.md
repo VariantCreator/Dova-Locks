@@ -1,10 +1,12 @@
-# Dova Locks 1.1.6 guide
+# Dova Locks 1.1.7 beta guide
+
+Beta, provided as-is.
 
 [Quick start](README.md)
 
 ## Get started
 
-Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need Dova Locks 1.1.6 and a compatible mod list.** Back up your prospect and both A/B lock saves before updating.
+Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need Dova Locks 1.1.7 and a compatible mod list.** Back up your prospect and both A/B lock saves before updating.
 
 For a regular lock, look at a supported door, window, container or bench. Hold **Shift**, then hold your **Interact key**. That's F by default, or your custom key. Set four digits and use **Link connected base** to protect the connected structure.
 
@@ -54,13 +56,17 @@ Stop the server before editing. For a remote server, download both saves, edit t
 
 Missing or mismatched client versions are rejected. ICARUS may still show error **028**; detailed DL001/DL002 reasons are in the server log.
 
+Lock errors now distinguish an actual distance over 5 m from a missing object, missing character, unavailable server or blocked lock saves. For a missing object, close the menu and select it again. Save-related messages need attention on the host; keep your A/B backups.
+
 ## Mod managers and Pickup and Move
 
-Jimk72's IMM accepts the EXMODZ or can extract the standalone PAK. The Variant Mod Organizer can merge PAKs too. Replace the old imported Dova entry with 1.1.6, refresh game data after an ICARUS update, and rebuild your list. Keep one active copy of each mod; do not leave separate copies beside a merged PAK containing them.
+**Known issue:** the missing T move prompt is still under investigation. This beta carries over the 1.1.6 integration and does not claim to fix that issue.
+
+For this beta, extract the standalone PAK as a mod in Jimk72's IMM. The Variant Mod Organizer can merge PAKs too. Replace the old imported Dova entry with 1.1.7, refresh game data after an ICARUS update, and rebuild your list. Keep one active copy of each mod; do not leave separate copies beside a merged PAK containing them.
 
 With [Pickup and Move 1.0 by BuggyGames](https://www.nexusmods.com/icarus/mods/338), put Pickup and Move **before Dova Locks** in the merge order. This keeps the permission checks. Its T move follows normal pickup rights, and its storage-opening actions follow normal access rights. Private storage keeps its own access list.
 
-For separate PAK installs, keep both original mods and add `Dova-Locks-PickupMove_1_P.pak` from the compatibility ZIP. Keep that filename unchanged. Remove it if you uninstall Pickup and Move. Do not add this separate compatibility PAK over an IMM or Organizer merge.
+For separate PAK installs, keep both original mods and add `Dova-Locks-PickupMove_1_P.pak` from the [1.1.6 compatibility ZIP](https://github.com/VariantCreator/Dova-Locks/releases/tag/v1.1.6). That compatibility PAK is unchanged in this beta. Keep that filename unchanged. Remove it if you uninstall Pickup and Move. Do not add this separate compatibility PAK over an IMM or Organizer merge.
 
 Dova still works on its own. The original Pickup and Move mod is required for its features and is not bundled here. Use the same setup on the server and clients; standalone and merged copies can use the same Dova version.
 

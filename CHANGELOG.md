@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.7 beta
+
+Provided as-is.
+
+- Roomier Ward map name badges with a subtle border.
+- Lock errors now distinguish distance, missing objects or characters, and unavailable saves.
+- Pickup and Move's missing T prompt is still under investigation.
+
 ## 1.1.6
 
 - Pickup and Move now follows Dova's pickup permissions, including private storage.

@@ -2,19 +2,15 @@
 
 Your base. Your PIN. Your questionable choice of roommates.
 
-**1.1.6** adds support for [Pickup and Move](https://www.nexusmods.com/icarus/mods/338). If you cannot pick it up, you cannot move it with T either. Pressing T is not a spare key.
+**1.1.7 beta — provided as-is.** Roomier Ward map labels and clearer lock errors. Standing closer to an unavailable save still will not fix it. At least the message makes sense now.
 
-[Download](https://github.com/VariantCreator/Dova-Locks/releases/latest) | [Nexus](https://www.nexusmods.com/icarus/mods/325) | [Changelog](CHANGELOG.md)
+[Download 1.1.7 beta](https://github.com/VariantCreator/Dova-Locks/releases/tag/v1.1.7) | [Latest stable](https://github.com/VariantCreator/Dova-Locks/releases/latest) | [Nexus](https://www.nexusmods.com/icarus/mods/325) | [Changelog](CHANGELOG.md)
 
 ## Install
 
-Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, replacing the old copy. Back up your prospect and A/B lock saves; keep those saves.
+Close ICARUS and stop the server. Extract the ZIP and put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, replacing the old copy. Back up your prospect and A/B lock saves; keep those saves.
 
-**Update the server and every player to 1.1.6.** Standalone and merged copies can use the same Dova version. Keep one active copy of each mod.
-
-- **Dova only:** Use the PAK or Standalone ZIP.
-- **IMM or Organizer merge:** Import 1.1.6, replacing the old Dova entry. With Pickup and Move, put Dova after it. Jimk72's IMM can also import the EXMODZ.
-- **Separate Pickup and Move PAKs:** Also install the compatibility ZIP's PAK. Keep its filename unchanged. Leave it out of merged setups and remove it if you uninstall Pickup and Move.
+**Use 1.1.7 on the server and every player.** Keep one active Dova copy. For Jimk72's IMM, extract the PAK as a mod and rebuild your list. Replace the old Dova entry in any Organizer merge too.
 
 ## Use it
 
@@ -22,7 +18,9 @@ Hold **Shift + Interact** on a supported object for lock controls. Craft **Dova'
 
 Link your base, set player roles, join up to three Wards, and pick your own boundary color and brightness. Anyone can repair; renovations need permission.
 
-[Full guide](GUIDE.md) | [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues) | [Variant Mod Organizer](https://github.com/VariantCreator/Variant-Mod-Organizer/releases/latest)
+**Known issue:** Pickup and Move's missing T prompt is still under investigation. This beta does not claim to fix it. Keep Pickup and Move before Dova in merges to retain the permission checks.
+
+[Full guide](GUIDE.md) | [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues)
 
 Other mods replacing the same game assets can still conflict. Game updates may need a mod update.
 
