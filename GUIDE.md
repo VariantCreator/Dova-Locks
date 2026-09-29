@@ -1,6 +1,6 @@
 # Dova Locks 1.7 guide
 
-[Quick start](README.md)
+[Quick start](https://github.com/VariantCreator/Dova-Locks/blob/main/README.md)
 
 ## Get started
 

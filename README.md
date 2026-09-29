@@ -4,7 +4,7 @@ Your base. Your PIN. Your questionable choice of roommates.
 
 **Version 1.7** gives Ward names on the map a little more breathing room. Less squinting, more building.
 
-[Download](https://github.com/VariantCreator/Dova-Locks/releases/latest) | [Nexus](https://www.nexusmods.com/icarus/mods/325) | [Changelog](CHANGELOG.md)
+[Download](https://github.com/VariantCreator/Dova-Locks/releases/latest) | [Nexus](https://www.nexusmods.com/icarus/mods/325) | [Changelog](https://github.com/VariantCreator/Dova-Locks/blob/main/CHANGELOG.md)
 
 ## Install
 
@@ -18,6 +18,6 @@ Hold **Shift + Interact** on a supported object for lock controls. Craft **Dova'
 
 Link your base, set player roles, join up to three Wards, and choose your own boundary color and brightness. Anyone can repair; renovations need permission.
 
-[Full guide](GUIDE.md) | [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues)
+[Full guide](https://github.com/VariantCreator/Dova-Locks/blob/main/GUIDE.md) | [Report a problem](https://github.com/VariantCreator/Dova-Locks/issues)
 
 Unofficial community mod. ICARUS belongs to RocketWerkz.
