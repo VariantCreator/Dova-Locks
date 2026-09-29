@@ -1,12 +1,9 @@
 # Changelog
 
-## 1.1.7 beta
+## 1.7
 
-Provided as-is.
-
-- Roomier Ward map name badges with a subtle border.
-- Lock errors now distinguish distance, missing objects or characters, and unavailable saves.
-- Pickup and Move's missing T prompt is still under investigation.
+- Improved Ward name labels on the map, with better spacing and a subtle border.
+- Long names have a little more breathing room. Less squinting required.
 
 ## 1.1.6
 
