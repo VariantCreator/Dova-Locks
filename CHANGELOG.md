@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.9
+
+- Updated for ICARUS Week 252 (October 1).
+
+## 1.8
+
+- Add player roles by Steam ID before they enter a PIN, including offline players.
+- Share individual chests and benches with selected players or everyone.
+- Extra sharing allows use and inventory access. Moving and lock controls stay protected.
+- Shorter tabbed menus, with Close always within reach.
+- Public-use badges for chests and benches shared with everyone.
+- Smaller Ward map labels that stay readable when zooming.
+- Consistent mouse cursor across lock and Ward controls.
+
 ## 1.7
 
 - Improved Ward name labels on the map, with better spacing and a subtle border.

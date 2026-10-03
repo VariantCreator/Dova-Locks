@@ -1,12 +1,22 @@
-# Dova Locks 1.7 guide
+# Dova Locks 1.9 guide
 
 [Quick start](https://github.com/VariantCreator/Dova-Locks/blob/main/README.md)
 
 ## Get started
 
-Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need Dova Locks 1.7 and a compatible mod list.** Back up your prospect and both A/B lock saves before updating.
+Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need Dova Locks 1.9 and a compatible mod list.** Back up your prospect and both A/B lock saves before updating.
 
 For a regular lock, look at a supported door, window, container or bench. Hold **Shift**, then hold your **Interact key**. That's F by default, or your custom key. Set four digits and use **Link connected base** to protect the connected structure.
+
+## Players and sharing
+
+The menu uses **Lock**, **Players**, **This object** and **Ward** tabs, depending on the selected object and your access. Close stays at the bottom.
+
+Only the claim owner can add players or assign roles. Open **Players**, enter a player's 17-digit Steam ID, choose a role and select **Add player**. They can be offline and do not need to enter the PIN first. Adding a previously removed player restores access with the selected role.
+
+The owner of the lock protecting a chest or bench can open **This object**. Keep normal permissions, add selected Steam IDs, or choose **Everyone**, then save. These extra permissions allow use and taking items from that object. Moving, pickup and lock controls still require normal permissions. Other chests and benches keep their own rules. Private chests stay private unless their own owner chooses to share them.
+
+The people icon and **Public use** label identify objects shared with everyone. Removed players stay blocked. Changing the controlling PIN or owner resets object sharing.
 
 ## Dova's Ward
 
@@ -30,7 +40,7 @@ Open **Your Ward Display** for color, opacity and brightness. These are personal
 
 ## Who can do what?
 
-- **Guest:** Repair, but no protected access or building changes.
+- **Guest:** Repair, plus use of individual chests or benches explicitly shared with them. No building changes or pickup.
 - **Associate:** Repair and use doors, windows and benches. This is the starting role after entering a PIN.
 - **Member:** Shared storage, building, upgrades, pickup and crop removal.
 - **Co-owner:** Member access, plus managing locks, Ward settings and access.
@@ -55,7 +65,7 @@ Stop the server before editing. For a remote server, download both saves, edit t
 
 ## Mod managers and Pickup and Move
 
-For 1.7, extract the standalone PAK as a mod in Jimk72's IMM. The Variant Mod Organizer can merge PAKs too. Replace the old imported Dova entry with 1.7, refresh game data after an ICARUS update, and rebuild your list. Keep one active copy of each mod; do not leave separate copies beside a merged PAK containing them.
+For 1.9, extract the standalone PAK as a mod in Jimk72's IMM. The Variant Mod Organizer can merge PAKs too. Replace the old imported Dova entry with 1.9, refresh game data after an ICARUS update, and rebuild your list. Keep one active copy of each mod; do not leave separate copies beside a merged PAK containing them.
 
 With [Pickup and Move 1.0 by BuggyGames](https://www.nexusmods.com/icarus/mods/338), put Pickup and Move **before Dova Locks** in the merge order. This keeps the permission checks. Its T move follows normal pickup rights, and its storage-opening actions follow normal access rights. Private storage keeps its own access list.
 
