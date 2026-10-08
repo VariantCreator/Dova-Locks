@@ -1,10 +1,10 @@
-# Dova Locks 1.9 guide
+# Dova Locks 1.10 guide
 
 [Quick start](https://github.com/VariantCreator/Dova-Locks/blob/main/README.md)
 
 ## Get started
 
-Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need Dova Locks 1.9 and a compatible mod list.** Back up your prospect and both A/B lock saves before updating.
+Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need Dova Locks 1.10 and a compatible mod list.** Back up your prospect and both A/B lock saves before updating.
 
 For a regular lock, look at a supported door, window, container or bench. Hold **Shift**, then hold your **Interact key**. That's F by default, or your custom key. Set four digits and use **Link connected base** to protect the connected structure.
 
@@ -65,7 +65,7 @@ Stop the server before editing. For a remote server, download both saves, edit t
 
 ## Mod managers and Pickup and Move
 
-For 1.9, extract the standalone PAK as a mod in Jimk72's IMM. The Variant Mod Organizer can merge PAKs too. Replace the old imported Dova entry with 1.9, refresh game data after an ICARUS update, and rebuild your list. Keep one active copy of each mod; do not leave separate copies beside a merged PAK containing them.
+For 1.10, extract the standalone PAK as a mod in Jimk72's IMM. The Variant Mod Organizer can merge PAKs too. Replace the old imported Dova entry with 1.10, refresh game data after an ICARUS update, and rebuild your list. Keep one active copy of each mod; do not leave separate copies beside a merged PAK containing them.
 
 With [Pickup and Move 1.0 by BuggyGames](https://www.nexusmods.com/icarus/mods/338), put Pickup and Move **before Dova Locks** in the merge order. This keeps the permission checks. Its T move follows normal pickup rights, and its storage-opening actions follow normal access rights. Private storage keeps its own access list.
 
