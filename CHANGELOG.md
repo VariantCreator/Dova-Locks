@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.11
+
+- Updated for ICARUS Week 254 (October 15).
+
 ## 1.10
 
 - Updated for ICARUS Week 253 (October 8).
