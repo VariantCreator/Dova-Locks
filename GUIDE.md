@@ -1,10 +1,10 @@
-# Dova Locks 1.12 guide
+# Dova Locks 1.13 guide
 
 [Quick start](https://github.com/VariantCreator/Dova-Locks/blob/main/README.md)
 
 ## Get started
 
-Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need Dova Locks 1.12 and a compatible mod list.** Back up your prospect and both A/B lock saves before updating.
+Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need Dova Locks 1.13 and a compatible mod list.** Back up your prospect and both A/B lock saves before updating.
 
 For a regular lock, look at a supported door, window, container or bench. Hold **Shift**, then hold your **Interact key**. That's F by default, or your custom key. Set four digits and use **Link connected base** to protect the connected structure.
 
@@ -12,7 +12,7 @@ For a regular lock, look at a supported door, window, container or bench. Hold *
 
 The menu uses **Lock**, **Players**, **This object** and **Ward** tabs, depending on the selected object and your access. Close stays at the bottom.
 
-Only the claim owner can add players or assign roles. Open **Players**, enter a player's 17-digit Steam ID, choose a role and select **Add player**. They can be offline and do not need to enter the PIN first. Adding a previously removed player restores access with the selected role.
+Only the claim owner can add players or assign roles. Open **Players**, choose a known player or enter their 17-digit Steam ID, choose a role and select **Add player**. They can be offline and do not need to enter the PIN first. Adding a previously removed player restores access with the selected role.
 
 The owner of the lock protecting a chest or bench can open **This object**. Keep normal permissions, add selected Steam IDs, or choose **Everyone**, then save. These extra permissions allow use and taking items from that object. Moving, pickup and lock controls still require normal permissions. Other chests and benches keep their own rules. Private chests stay private unless their own owner chooses to share them.
 
@@ -24,7 +24,9 @@ Craft it where you craft the Flow Meter, using the same materials. Place it and 
 
 A new Ward on your own linked base reuses its PIN and access. Changes to shared access carry across both. An existing linked base remains protected beyond the Ward radius, and removing the Ward lock does not remove that separate base lock. The menu tells you when it is still active.
 
-Check nearby protection for a 12-second view: **green has an active lock; red has none**. It covers loaded build pieces within 70 m, up to 128 objects. Show nearby Wards displays boundaries within 150 m. Hiding a boundary does not turn protection off.
+Check nearby protection for a 12-second view within 70 m: **green is protected; red is unprotected**. The scan includes structures, placed equipment, pipes and wires, including bends and junctions. Separate display limits leave room for 256 structures, 256 placed items and 128 utility lines. The menu reports anything it cannot show; no highlight does not mean an item is unprotected.
+
+Pipes and wires inherit protection from connected protected devices. Loose sections are not protected simply by sitting inside a Ward. Show nearby Wards displays boundaries within 150 m. Hiding a boundary does not turn protection off.
 
 The Ward covers your base, placed equipment and loot bags. Mining, chopping trees and dealing with wildlife work normally. Storms still get a vote. Players with the right access can damage their own protected stuff.
 
@@ -52,9 +54,9 @@ Access is remembered. Owners and co-owners can give storage a private lock insid
 
 Use the game's `/AdminLogin` with the server admin password, reopen lock controls and choose **Server Admin**. Stand within 5 m of the selected object.
 
-The opening override lasts five minutes. It allows opening protected objects in the selected claim, not damage, pickup or building. Its status is shown in the panel; **End My Override** stops it early.
+The opening override lasts five minutes. It allows opening protected objects in the selected claim, not damage, pickup or building. The panel shows the selected lock, its owner and the override time left; **End My Override** stops it early.
 
-PIN recovery, disabling a Ward and removing a selected lock require confirmation. Removing or disabling the selected protection also ends your opening override. Other locks may still protect that area. Recent activity is a short, collapsible list; PINs and passwords are not logged.
+PIN recovery, disabling a Ward and removing a selected lock require confirmation. Removing or disabling the selected protection also ends your opening override. Other locks may still protect that area. Recent activity can show the selected claim or the whole server. Switching to another lock clears the previous confirmation; PINs and passwords are not logged.
 
 ## Saves and support
 
@@ -65,7 +67,7 @@ Stop the server before editing. For a remote server, download both saves, edit t
 
 ## Mod managers and Pickup and Move
 
-For 1.12, extract the standalone PAK as a mod in Jimk72's IMM. The Variant Mod Organizer can merge PAKs too. Replace the old imported Dova entry with 1.12, refresh game data after an ICARUS update, and rebuild your list. Keep one active copy of each mod; do not leave separate copies beside a merged PAK containing them.
+For 1.13, extract the standalone PAK as a mod in Jimk72's IMM. The Variant Mod Organizer can merge PAKs too. Replace the old imported Dova entry with 1.13, refresh game data after an ICARUS update, and rebuild your list. Keep one active copy of each mod; do not leave separate copies beside a merged PAK containing them.
 
 With [Pickup and Move 1.0 by BuggyGames](https://www.nexusmods.com/icarus/mods/338), put Pickup and Move **before Dova Locks** in the merge order. This keeps the permission checks. Its T move follows normal pickup rights, and its storage-opening actions follow normal access rights. Private storage keeps its own access list.
 

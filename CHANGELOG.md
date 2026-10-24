@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.13
+
+- Better protection highlights for wall storage and fireplaces.
+- Pipes, wires, bends and junctions now appear in the scan.
+- Separate scan limits for structures, placed items and utilities, with a warning when the scan cannot show everything.
+- Choose known players from a list, or enter their Steam ID.
+- Clearer admin controls, an override countdown and activity by claim or server.
+- Switching locks clears the previous admin confirmation.
+
 ## 1.12
 
 - Updated for ICARUS Week 255 (October 22).
