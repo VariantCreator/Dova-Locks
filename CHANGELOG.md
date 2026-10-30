@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.14
+
+- Updated for ICARUS Week 256 (October 29).
+- Keeps the latest game fixes. No gameplay or feature changes.
+
 ## 1.13
 
 - Better protection highlights for wall storage and fireplaces.
