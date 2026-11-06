@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.15
+
+- Updated for ICARUS Week 257 (November 5).
+- Preserves the latest game data and keeps lock behavior the same.
+
 ## 1.14
 
 - Updated for ICARUS Week 256 (October 29).

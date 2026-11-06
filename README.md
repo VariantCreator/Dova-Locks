@@ -2,7 +2,7 @@
 
 Your base. Your PIN. Your questionable choice of roommates.
 
-**Version 1.14** updates Dova Locks for ICARUS Week 256. Same locks, new week.
+**Version 1.15** updates Dova Locks for ICARUS Week 257.
 
 [Download](https://github.com/VariantCreator/Dova-Locks/releases/latest) | [Nexus](https://www.nexusmods.com/icarus/mods/325)
 
@@ -10,7 +10,7 @@ Your base. Your PIN. Your questionable choice of roommates.
 
 Close ICARUS and stop the server. Extract the ZIP and replace `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`.
 
-Use **1.14 on the server and every player**. Back up your prospect and A/B lock saves, keep one active Dova copy, and rebuild any merge containing it. For Jimk72's IMM, replace the old imported Dova entry, extract the new PAK as a mod, and rebuild your list.
+Use **1.15 on the server and every player**. Back up your prospect and A/B lock saves, keep one active Dova copy, and rebuild any merge containing it. For Jimk72's IMM, replace the old imported Dova entry, extract the new PAK as a mod, and rebuild your list.
 
 ## Use it
 
