@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.16
+
+- Updated for ICARUS Week 258.
+- Dova's Ward has its own Tier 4 blueprint and a green device icon.
+- Share a single door with selected players through the Object tab.
+- Server admins can set the connected Ward limit from one to three.
+
 ## 1.15
 
 - Updated for ICARUS Week 257 (November 5).

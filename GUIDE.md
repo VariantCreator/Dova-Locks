@@ -1,10 +1,10 @@
-# Dova Locks 1.15 guide
+# Dova Locks 1.16 guide
 
 [Quick start](https://github.com/VariantCreator/Dova-Locks/blob/main/README.md)
 
 ## Get started
 
-Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need Dova Locks 1.15 and a compatible mod list.** Back up your prospect and both A/B lock saves before updating.
+Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need Dova Locks 1.16 and a compatible mod list.** Back up your prospect and both A/B lock saves before updating.
 
 For a regular lock, look at a supported door, window, container or bench. Hold **Shift**, then hold your **Interact key**. That's F by default, or your custom key. Set four digits and use **Link connected base** to protect the connected structure.
 
@@ -14,13 +14,13 @@ The menu uses **Lock**, **Players**, **This object** and **Ward** tabs, dependin
 
 Only the claim owner can add players or assign roles. Open **Players**, choose a known player or enter their 17-digit Steam ID, choose a role and select **Add player**. They can be offline and do not need to enter the PIN first. Adding a previously removed player restores access with the selected role.
 
-The owner of the lock protecting a chest or bench can open **This object**. Keep normal permissions, add selected Steam IDs, or choose **Everyone**, then save. These extra permissions allow use and taking items from that object. Moving, pickup and lock controls still require normal permissions. Other chests and benches keep their own rules. Private chests stay private unless their own owner chooses to share them.
+The owner of the lock protecting a door, chest, or bench can open **This object**. Keep normal permissions, add selected Steam IDs, or choose **Everyone**, then save. Shared doors can be opened and closed. Shared chests and benches allow use and taking items. Moving, pickup and lock controls still require normal permissions. Private chests stay private unless their own owner chooses to share them.
 
 The people icon and **Public use** label identify objects shared with everyone. Removed players stay blocked. Changing the controlling PIN or owner resets object sharing.
 
 ## Dova's Ward
 
-Craft it where you craft the Flow Meter, using the same materials. Place it and **tap Interact** to use its screen. A new PIN turns protection on. Owners and co-owners can set its radius from **1 to 60 m**, name it, and show or hide the boundary.
+Learn **Dova's Ward** beside Flow Meter in Tier 4 and craft it at a Fabricator or Manufacturer. If you learned Flow Meter on an earlier version, learn Dova's Ward to craft more. Place the Ward and **tap Interact** to use its screen. A new PIN turns protection on. Owners and co-owners can set its radius from **1 to 60 m**, name it, and show or hide the boundary.
 
 A new Ward on your own linked base reuses its PIN and access. Changes to shared access carry across both. An existing linked base remains protected beyond the Ward radius, and removing the Ward lock does not remove that separate base lock. The menu tells you when it is still active.
 
@@ -32,7 +32,7 @@ The Ward covers your base, placed equipment and loot bags. Mining, chopping tree
 
 ## Joined Wards and personal display
 
-Up to three touching Wards with the same owner join their boundaries and share a name and player access. Another owner's claim cannot be absorbed. The menu tells you when a group has reached its three-Ward limit.
+Touching Wards with the same owner join their boundaries and share a name and player access. The default limit is three per connected group. Another owner's claim cannot be absorbed. The menu tells you when the group is full.
 
 Each Ward keeps its own PIN. Installing or changing one does not replace the other devices' PINs. A new Ward can still inherit its owner's linked-base PIN when first placed. Removing a Ward lock turns that Ward off and keeps its lock removed until you explicitly install it again. Other Wards, linked base locks and separate private locks keep their protection.
 
@@ -42,7 +42,7 @@ Open **Your Ward Display** for color, opacity and brightness. These are personal
 
 ## Who can do what?
 
-- **Guest:** Repair, plus use of individual chests or benches explicitly shared with them. No building changes or pickup.
+- **Guest:** Repair, plus use of individual doors, chests or benches explicitly shared with them. No building changes or pickup.
 - **Associate:** Repair and use doors, windows and benches. This is the starting role after entering a PIN.
 - **Member:** Shared storage, building, upgrades, pickup and crop removal.
 - **Co-owner:** Member access, plus managing locks, Ward settings and access.
@@ -53,6 +53,8 @@ Access is remembered. Owners and co-owners can give storage a private lock insid
 ## Server admins
 
 Use the game's `/AdminLogin` with the server admin password, reopen lock controls and choose **Server Admin**. Stand within 5 m of the selected object.
+
+Set **Wards per Connected Base** to 1, 2 or 3, then click **Apply Ward Limit**. If a group already exceeds the new limit, split it before lowering the setting.
 
 The opening override lasts five minutes. It allows opening protected objects in the selected claim, not damage, pickup or building. The panel shows the selected lock, its owner and the override time left; **End My Override** stops it early.
 
@@ -67,7 +69,7 @@ Stop the server before editing. For a remote server, download both saves, edit t
 
 ## Mod managers and Pickup and Move
 
-For 1.15, extract the standalone PAK as a mod in Jimk72's IMM. The Variant Mod Organizer can merge PAKs too. Replace the old imported Dova entry with 1.15, refresh game data after an ICARUS update, and rebuild your list. Keep one active copy of each mod; do not leave separate copies beside a merged PAK containing them.
+Extract the standalone 1.16 PAK as a mod in Jimk72's IMM. The Variant Mod Organizer can merge PAKs too. Replace the old imported Dova entry, refresh game data after an ICARUS update, and rebuild your list. Keep one active copy of each mod.
 
 With [Pickup and Move 1.0 by BuggyGames](https://www.nexusmods.com/icarus/mods/338), put Pickup and Move **before Dova Locks** in the merge order. This keeps the permission checks. Its T move follows normal pickup rights, and its storage-opening actions follow normal access rights. Private storage keeps its own access list.
 
