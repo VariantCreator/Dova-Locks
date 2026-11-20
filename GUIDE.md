@@ -1,10 +1,10 @@
-# Dova Locks 1.16 guide
+# Dova Locks 1.17 guide
 
 [Quick start](https://github.com/VariantCreator/Dova-Locks/blob/main/README.md)
 
 ## Get started
 
-Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need Dova Locks 1.16 and a compatible mod list.** Back up your prospect and both A/B lock saves before updating.
+Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need Dova Locks 1.17 and a compatible mod list.** Back up your prospect and both A/B lock saves before updating.
 
 For a regular lock, look at a supported door, window, container or bench. Hold **Shift**, then hold your **Interact key**. That's F by default, or your custom key. Set four digits and use **Link connected base** to protect the connected structure.
 
@@ -14,6 +14,8 @@ The menu uses **Lock**, **Players**, **This object** and **Ward** tabs, dependin
 
 Only the claim owner can add players or assign roles. Open **Players**, choose a known player or enter their 17-digit Steam ID, choose a role and select **Add player**. They can be offline and do not need to enter the PIN first. Adding a previously removed player restores access with the selected role.
 
+Changing a PIN keeps assigned roles across joined Wards. Anyone who got access by entering the old PIN needs the new one. Older saves didn't record how an Associate got access. To keep an existing Associate through future PIN changes, assign their role once in **Players**.
+
 The owner of the lock protecting a door, chest, or bench can open **This object**. Keep normal permissions, add selected Steam IDs, or choose **Everyone**, then save. Shared doors can be opened and closed. Shared chests and benches allow use and taking items. Moving, pickup and lock controls still require normal permissions. Private chests stay private unless their own owner chooses to share them.
 
 The people icon and **Public use** label identify objects shared with everyone. Removed players stay blocked. Changing the controlling PIN or owner resets object sharing.
@@ -21,6 +23,8 @@ The people icon and **Public use** label identify objects shared with everyone. 
 ## Dova's Ward
 
 Learn **Dova's Ward** beside Flow Meter in Tier 4 and craft it at a Fabricator or Manufacturer. If you learned Flow Meter on an earlier version, learn Dova's Ward to craft more. Place the Ward and **tap Interact** to use its screen. A new PIN turns protection on. Owners and co-owners can set its radius from **1 to 60 m**, name it, and show or hide the boundary.
+
+Mission gates and structures stay open. Place the Ward far enough from a mission outpost that its radius clears the mission structures. The same rule applies when you reactivate a Ward or expand its radius.
 
 A new Ward on your own linked base reuses its PIN and access. Changes to shared access carry across both. An existing linked base remains protected beyond the Ward radius, and removing the Ward lock does not remove that separate base lock. The menu tells you when it is still active.
 
@@ -48,7 +52,7 @@ Open **Your Ward Display** for color, opacity and brightness. These are personal
 - **Co-owner:** Member access, plus managing locks, Ward settings and access.
 - **Owner:** Full control, including assigning roles.
 
-Access is remembered. Owners and co-owners can give storage a private lock inside a shared base or Ward. Members can also private-lock chests they personally placed, including after being granted Member access later. They cannot claim someone else's chest. Placement tracking starts in 1.1.2; older chests with no recorded placer need an authorized pickup and placement again first.
+Access is remembered. Owners and co-owners can give storage a private lock inside a shared base or Ward. Members can also private-lock chests they personally placed, including after being granted Member access later. Restoring or relinking the base over a private chest keeps its owner, PIN and access list. Placement tracking starts in 1.1.2; older chests with no recorded placer need an authorized pickup and placement again first.
 
 ## Server admins
 
@@ -69,7 +73,7 @@ Stop the server before editing. For a remote server, download both saves, edit t
 
 ## Mod managers and Pickup and Move
 
-Extract the standalone 1.16 PAK as a mod in Jimk72's IMM. The Variant Mod Organizer can merge PAKs too. Replace the old imported Dova entry, refresh game data after an ICARUS update, and rebuild your list. Keep one active copy of each mod.
+Extract the standalone 1.17 PAK as a mod in Jimk72's IMM. The Variant Mod Organizer can merge PAKs too. Replace the old imported Dova entry, refresh game data after an ICARUS update, and rebuild your list. Keep one active copy of each mod.
 
 With [Pickup and Move 1.0 by BuggyGames](https://www.nexusmods.com/icarus/mods/338), put Pickup and Move **before Dova Locks** in the merge order. This keeps the permission checks. Its T move follows normal pickup rights, and its storage-opening actions follow normal access rights. Private storage keeps its own access list.
 

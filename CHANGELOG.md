@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.17
+
+- Updated for ICARUS Week 259.
+- Mission gates and structures are excluded from locks, base links, and Ward claims.
+- Changing a PIN keeps assigned roles across joined Wards. Players who used only the old PIN need the new one.
+- Members can put a private PIN on chests they placed. Restoring the Ward or base link keeps those chests private.
+
 ## 1.16
 
 - Updated for ICARUS Week 258.
