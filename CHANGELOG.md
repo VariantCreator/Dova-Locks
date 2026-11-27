@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.18
+
+- Updated for ICARUS Week 260.
+- Doors can now close themselves after five seconds. Owners and co-owners can turn this on in **Base Settings** for their base and its joined Wards.
+- Benches can craft from shared chests when **Craft from shared storage** is on. Private chests are always skipped.
+- Recipe ingredients show how much you have and how much you need for the selected batch, including supplies in shared chests.
+
 ## 1.17
 
 - Updated for ICARUS Week 259.

@@ -1,12 +1,19 @@
-# Dova Locks 1.17 guide
+# Dova Locks 1.18 guide
 
 [Quick start](https://github.com/VariantCreator/Dova-Locks/blob/main/README.md)
 
 ## Get started
 
-Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need Dova Locks 1.17 and a compatible mod list.** Back up your prospect and both A/B lock saves before updating.
+Close ICARUS and stop the server. Put `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`, creating the mods folder if needed. Replace the old PAK and keep one copy. **The server and every player need Dova Locks 1.18 and a compatible mod list.** Back up your prospect and both A/B lock saves before updating.
 
 For a regular lock, look at a supported door, window, container or bench. Hold **Shift**, then hold your **Interact key**. That's F by default, or your custom key. Set four digits and use **Link connected base** to protect the connected structure.
+
+## Base settings
+
+Open a lock or Ward menu and expand **Base Settings**. The owner or a co-owner can turn on either option for that base and its joined Wards. Both start off.
+
+- **Auto-close doors** shuts an open door after five seconds.
+- **Craft from shared storage** lets a bench use ingredients from shared chests in the same base. Under **Required Elements**, each ingredient shows the amount available and the amount needed for the selected batch. For example, `170/120` means you have 170 stone and the recipe needs 120. The bench skips private chests, including your own.
 
 ## Players and sharing
 
@@ -73,7 +80,7 @@ Stop the server before editing. For a remote server, download both saves, edit t
 
 ## Mod managers and Pickup and Move
 
-Extract the standalone 1.17 PAK as a mod in Jimk72's IMM. The Variant Mod Organizer can merge PAKs too. Replace the old imported Dova entry, refresh game data after an ICARUS update, and rebuild your list. Keep one active copy of each mod.
+Extract the standalone 1.18 PAK as a mod in Jimk72's IMM. The Variant Mod Organizer can merge PAKs too. Replace the old imported Dova entry, refresh game data after an ICARUS update, and rebuild your list. Keep one active copy of each mod.
 
 With [Pickup and Move 1.0 by BuggyGames](https://www.nexusmods.com/icarus/mods/338), put Pickup and Move **before Dova Locks** in the merge order. This keeps the permission checks. Its T move follows normal pickup rights, and its storage-opening actions follow normal access rights. Private storage keeps its own access list.
 

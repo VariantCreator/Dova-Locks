@@ -2,7 +2,10 @@
 
 Your base. Your PIN. Your questionable choice of roommates.
 
-**Version 1.17** is ready for ICARUS Week 259. Mission outposts stay open, joined Wards remember assigned roles, and Members can put a private PIN on chests they placed.
+**Version 1.18 is here for ICARUS Week 260.** Tired of closing doors and hauling stone to the bench? Owners and co-owners can turn on either option in **Base Settings** on a lock or Ward. Both start off.
+
+- **Auto-close doors** shuts open doors in your base after five seconds.
+- **Craft from shared storage** lets benches pull ingredients from your base’s shared chests. The recipe shows how much you have and how much you need for the whole batch. Private chests stay private.
 
 [Download](https://github.com/VariantCreator/Dova-Locks/releases/latest) | [Nexus](https://www.nexusmods.com/icarus/mods/325)
 
@@ -10,7 +13,7 @@ Your base. Your PIN. Your questionable choice of roommates.
 
 Close ICARUS and stop the server. Extract the ZIP and replace `Dova-Locks_P.pak` in `Icarus/Content/Paks/mods`.
 
-Install **1.17 on the server and every player's PC**. Back up your prospect and A/B lock saves, keep one active Dova copy, and rebuild any merge containing it. For Jimk72's IMM, replace the old imported Dova entry, extract the new PAK as a mod, and rebuild your list.
+Install **1.18 on the server and every player's PC**. Back up your prospect and A/B lock saves, keep one active Dova copy, and rebuild any merge containing it. For Jimk72's IMM, replace the old imported Dova entry, extract the new PAK as a mod, and rebuild your list.
 
 ## Use it
 
